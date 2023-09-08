@@ -32,7 +32,7 @@ const Header = () => {
   useEffect(() => {
     handlePath()
     return () => {}
-  })
+  }, [])
 
   return (
     <header className="nav-text text-primary flex uppercase justify-between relative items-center h-[15vh]">
